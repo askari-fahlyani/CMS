@@ -17,6 +17,7 @@
 .sidebar-links li {
   position: relative;
   padding: 15px;
+  display: flex;
 }
 .sidebar-links li a {
   width: 100%;
@@ -26,6 +27,7 @@
   justify-content: left;
   align-items: center;
   font-size: 1.3rem;
+  margin-left: 8px;
 }
 .sidebar-links li.active {
   background-color: #391588;
